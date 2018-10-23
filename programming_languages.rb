@@ -1,5 +1,4 @@
 
-
 def reformat_languages(languages)
   hash = {}
   languages.each do |type, data|
@@ -9,6 +8,6 @@ def reformat_languages(languages)
       hash[name][:style] << style
     end
   end
-  return hash
-end
+ end
+ hash
 end
