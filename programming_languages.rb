@@ -33,5 +33,7 @@ languages = {
 
 
 def reformat_languages(languages)
-  #
+  hash = {}
+  languages.each do |type, data|
+    data[:ruby]
 end
