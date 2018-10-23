@@ -43,3 +43,4 @@ def reformat_languages(languages)
   end
   return hash
 end
+end
