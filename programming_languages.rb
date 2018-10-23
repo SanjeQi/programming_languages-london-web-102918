@@ -5,7 +5,7 @@ def reformat_languages(languages)
     data.each do |name, attributes|
       hash[name] || = attributes
       hash[name][:style] = []
-      hash[name][:style] << style
+      hash[name][:style] << type
     end
   end
  end
